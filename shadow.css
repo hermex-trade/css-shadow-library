@@ -1,0 +1,75 @@
+body {
+    background-color: gray;
+}
+
+/* Definition von Grundfarben damit man eine Änderung nur hier vorgenommen werden muss */
+:root {
+    --wasdazu-orange: #fbb331;
+    --wasdazu-green:#94ba06;
+    --wasdazu-red: #f11313;
+}
+
+.shadow-strongest {
+    box-shadow: 20px 20px 20px #000000cc;
+}
+
+.shadow-high {
+    box-shadow: 15px 15px 15px #00000099;
+}
+
+.shadow-medium {
+    box-shadow: 10px 10px 10px #00000066;
+}
+
+.shadow-weak {
+    box-shadow: 5px 5px 5px #00000033;
+}
+
+
+.shadow-strongest.wasdazu-orange {
+    background-color: var(--wasdazu-orange);
+}
+
+.shadow-strongest.wasdazu-green {
+    background-color: var(--wasdazu-green);
+}
+
+.shadow-strongest.wasdazu-red {
+    background-color: var(--wasdazu-red);
+}
+
+.shadow-high.wasdazu-orange {
+    background-color: var(--wasdazu-orange);
+}
+
+.shadow-high.wasdazu-green {
+    background-color: var(--wasdazu-green);
+}
+
+.shadow-high.wasdazu-red {
+    background-color: var(--wasdazu-red);9;
+}
+
+.shadow-medium.wasdazu-orange {
+    background-color: var(--wasdazu-orange);
+}
+
+.shadow-medium.wasdazu-green {
+    background-color: var(--wasdazu-green);
+}
+
+.shadow-medium.wasdazu-red {
+    background-color: var(--wasdazu-red);
+}
+
+.shadow-weak.wasdazu-orange {
+    background-color: var(--wasdazu-orange);
+}
+
+.shadow-weak.wasdazu-green {
+    background-color: var(--wasdazu-green);
+}
+
+.shadow-weak.wasdazu-red {
+    background-color: var(--wasdazu-red);
+}
